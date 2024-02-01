@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Limon Monte, Full-Stack JS/TS/PHP Developer</title>
+    <link rel="icon" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles.scss" />
+  </head>
+  <body>
+    <div id="tsparticles"></div>
+    <a href="/cv/" class="printable-cv-link">
+      Printable CV
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256">
+        <path
+          fill="currentColor"
+          d="m210.78 39.25l-130.25-23A16 16 0 0 0 62 29.23l-29.75 169a16 16 0 0 0 13 18.53l130.25 23a16 16 0 0 0 18.54-13l29.75-169a16 16 0 0 0-13.01-18.51M178.26 224L48 201L77.75 32L208 55ZM89.34 58.42a8 8 0 0 1 9.27-6.48l83 14.65a8 8 0 0 1-1.39 15.88a8.36 8.36 0 0 1-1.4-.12l-83-14.66a8 8 0 0 1-6.48-9.27M83.8 89.94a8 8 0 0 1 9.27-6.49l83 14.66a8 8 0 0 1-1.4 15.89a7.55 7.55 0 0 1-1.41-.13l-83-14.65a8 8 0 0 1-6.46-9.28m-5.55 31.51a8 8 0 0 1 9.27-6.45l41.48 7.29a8 8 0 0 1-1.38 15.88a8.27 8.27 0 0 1-1.4-.12l-41.5-7.33a8 8 0 0 1-6.47-9.27"
+        />
+      </svg>
+    </a>
+    <main>
+      <object id="head" type="image/svg+xml" data="/head.svg.xml"></object>
+      <section class="skill-box programming">
+        <h2>Programming skills</h2>
+        <span><strong>20+ years</strong> in &lt;WebDev /&gt;.</span>
+        <my-skill name="Client-side JS" level="19"></my-skill>
+        <my-skill name="Server-side JS" level="18"></my-skill>
+        <my-skill name="PHP" level="17"></my-skill>
+        <my-skill name="TypeScript" level="18"></my-skill>
+        <button class="close-button">×</button>
+      </section>
+
+      <section class="skill-box db">
+        <h2>Databases</h2>
+        <my-skill name="MySQL, MariaDB" level="18"></my-skill>
+        <my-skill name="PostgreSQL" level="17"></my-skill>
+        <my-skill name="SQLite" level="16" inactive></my-skill>
+        <hr />
+        <my-skill name="Transactions"></my-skill>
+        <my-skill name="Indexes and Optimization"></my-skill>
+        <my-skill name="Security"></my-skill>
+        <button class="close-button">×</button>
+      </section>
+
+      <section class="skill-box frontend">
+        <h2>Front-End skills</h2>
+        <my-skill name="HTML5" level="19"></my-skill>
+        <my-skill name="CSS3" level="19"></my-skill>
+        <my-skill name="SASS/SCSS" level="19"></my-skill>
+        <my-skill name="Styled Components" level="17"></my-skill>
+        <hr />
+        <span>npm / yarn</span>
+        <span>Vite / Webpack / Rollup / Gulp</span>
+        <button class="close-button">×</button>
+      </section>
+
+      <section class="skill-box backend-frameworks">
+        <h2>Backend frameworks</h2>
+        <my-skill name="Next.js" level="19"></my-skill>
+        <my-skill name="Express" level="18"></my-skill>
+        <my-skill name="Fastify" level="18"></my-skill>
+        <my-skill name="Hono" level="17"></my-skill>
+        <my-skill name="NestJS" level="16"></my-skill>
+        <hr />
+        <my-skill name="Laravel" level="19"></my-skill>
+        <button class="close-button">×</button>
+      </section>
+
+      <section class="skill-box frontend-frameworks">
+        <h2>Frontend frameworks</h2>
+        <my-skill name="React" level="19"></my-skill>
+        <my-skill name="Vue.js" level="16"></my-skill>
+        <my-skill name="jQuery" level="19"></my-skill>
+        <hr />
+        <my-skill name="Tailwind CSS" level="19"></my-skill>
+        <my-skill name="Bootstrap" level="17"></my-skill>
+        <my-skill name="Material UI" level="15"></my-skill>
+        <button class="close-button">×</button>
+      </section>
+
+      <section class="skill-box design">
+        <h2>Design</h2>
+        <my-skill name="Figma" level="18"></my-skill>
+        <my-skill name="UI/UX" level="17"></my-skill>
+        <my-skill name="Responsive design" level="18"></my-skill>
+        <hr />
+        <h2>Accessibility</h2>
+        <my-skill name="Semantic HTML / WAI-ARIA / WCAG 2.0"></my-skill>
+        <my-skill name="JAWS / NVDA / VoiceOver"></my-skill>
+        <button class="close-button">×</button>
+      </section>
+
+      <section class="skill-box security">
+        <h2>Security</h2>
+        <span>Authorization and authentication</span>
+        <span>OAuth</span>
+        <span>Preventing SQL attacks</span>
+        <span>Preventing XSS attacks</span>
+        <span>SSL</span>
+        <button class="close-button">×</button>
+      </section>
+
+      <section class="skill-box social">
+        <h2>Social skills</h2>
+        <span><strong>Stack Overflow (top 1%)</strong></span>
+        <div class="left-offset">
+          <a href="https://stackoverflow.com/users/1331425/limonte" rel="nofollow">
+            <img
+              src="https://stackoverflow.com/users/flair/1331425.png?theme=dark"
+              alt="StackOverflow badge"
+              width="265"
+            />
+          </a>
+        </div>
+        <hr />
+        <div class="left-offset">
+          Creator and maintainer of <br />
+          ★ <strong id="sweetalert2-stars-count"></strong>
+          <a href="https://github.com/sweetalert2/sweetalert2" target="_blank">SweetAlert2</a>
+        </div>
+        <hr />
+        <span>Scrum, Kanban</span>
+        <button class="close-button">×</button>
+      </section>
+
+      <section class="skill-box system-administration">
+        <h2>System administration</h2>
+        <span
+          ><strong>15+ years</strong> of maintaining <br />
+          Linux servers.</span
+        >
+        <my-skill name="NGinx" level="18"></my-skill>
+        <hr />
+        <span>AWS / Cloudflare / DigitalOcean</span>
+        <hr />
+        <span>Vercel / Heroku / Netlify / Render</span>
+        <button class="close-button">×</button>
+      </section>
+
+      <section class="skill-box tools">
+        <h2>OS, WebDev tools</h2>
+        <my-skill name="macOS" level="19"></my-skill>
+        <my-skill name="Windows" level="18"></my-skill>
+        <my-skill name="Linux" level="18"></my-skill>
+        <hr />
+        <span>Docker, Kubernetes</span>
+        <hr />
+        <span>GitHub Actions, CircleCI, TravisCI</span>
+        <button class="close-button">×</button>
+      </section>
+
+      <section class="skill-box testing">
+        <h2>Testing</h2>
+        <my-skill name="Jest, Karma"></my-skill>
+        <my-skill name="Cypress, Puppeteer, Playwright"></my-skill>
+        <my-skill name="Chromatic, Percy"></my-skill>
+        <hr />
+        <my-skill name="Pest, PHPUnit"></my-skill>
+        <hr />
+        <my-skill name="Stryker"></my-skill>
+      </section>
+
+      <section class="skill-box api">
+        <h2>Payment Gateways</h2>
+        <my-skill name="Stripe" level="18"></my-skill>
+        <my-skill name="PayPal" level="17"></my-skill>
+        <hr />
+        <h2>APIs</h2>
+        <span>Google OAuth2 API</span>
+        <span>YouTube API</span>
+        <span>Facebook OAuth2 API</span>
+        <span>Dropbox API</span>
+        <button class="close-button">×</button>
+      </section>
+
+      <section class="skill-box performance">
+        <h2>Web Performance</h2>
+        <my-skill name="NGinx o10n" level="17"></my-skill>
+        <my-skill name="Caching" level="15"></my-skill>
+        <my-skill name="Compression" level="17"></my-skill>
+        <my-skill name="CSS/JS delivery" level="18"></my-skill>
+        <my-skill name="Lighthouse" level="18"></my-skill>
+        <button class="close-button">×</button>
+      </section>
+
+      <section class="skill-box communication">
+        <h2>Communication</h2>
+        <my-skill name="English" level="18"></my-skill>
+        <my-skill name="Russian (native)" level="19"></my-skill>
+        <my-skill name="Ukrainian" level="16"></my-skill>
+        <my-skill name="Serbian/Croatian" level="17"></my-skill>
+        <my-skill name="Finnish" level="12"></my-skill>
+        <hr />
+        <span>Slack / Jira / Trello</span>
+        <button class="close-button">×</button>
+      </section>
+      <div id="earpod-container">
+        <object id="earpod" type="image/svg+xml" data="/earpod.svg.xml"></object>
+        <audio id="music-player" src="/underworld-revo.ogg" loop></audio>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
