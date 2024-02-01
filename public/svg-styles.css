@@ -1,0 +1,57 @@
+path,
+polygon,
+line,
+circle {
+  stroke-width: 2;
+  stroke: #faff1e;
+  fill: #000000;
+  pointer-events: visible;
+}
+
+circle {
+  stroke-width: 5;
+}
+
+#background polygon {
+  stroke: none;
+}
+
+.skill {
+  animation: pulsing 5s linear infinite;
+  cursor: pointer;
+}
+
+.skill:hover,
+.skill:focus,
+.skill.current {
+  animation: none;
+  fill: #f60 !important;
+  outline: none;
+}
+
+.skill.active {
+  animation: none;
+  fill: #c30;
+}
+
+.filled {
+  fill: #faff1e;
+}
+
+@keyframes pulsing {
+  0% {
+    fill: #662800;
+  }
+
+  20% {
+    fill: #190a00;
+  }
+
+  100% {
+    fill: #662800;
+  }
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
