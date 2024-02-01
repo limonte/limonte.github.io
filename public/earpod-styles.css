@@ -1,0 +1,8 @@
+path {
+  fill: url(#earpod-gradient);
+}
+
+path:hover {
+  fill: url(#earpod-gradient-hover);
+  cursor: pointer;
+}
