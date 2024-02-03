@@ -4,7 +4,7 @@ line,
 circle {
   stroke-width: 2;
   stroke: #faff1e;
-  fill: #222;
+  fill: #000000;
   pointer-events: visible;
 }
 
