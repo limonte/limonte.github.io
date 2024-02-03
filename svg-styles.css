@@ -12,6 +12,10 @@ circle {
   stroke-width: 5;
 }
 
+#background polygon {
+  stroke: none;
+}
+
 .skill {
   animation: pulsing 5s linear infinite;
   cursor: pointer;
