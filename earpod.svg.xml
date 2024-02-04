@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/earpod-styles.css" type="text/css"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70px" height="100px" viewBox="0 0 80 100" version="1.1" style="width: 70px">
+  <defs>
+    <linearGradient id="earpod-gradient">
+      <stop offset="5%" stop-color="#eee" />
+      <stop offset="95%" stop-color="#c0c0c0" />
+    </linearGradient>
+    <linearGradient id="earpod-gradient-hover">
+      <stop offset="5%" stop-color="#fff" />
+      <stop offset="95%" stop-color="#e0e0e0" />
+    </linearGradient>
+  </defs>
   <g>
     <path d="M 24.539062 9.867188 C 27.457031 20.453125 27.652344 31.066406 25.121094 41.449219 C 25.613281 41.917969 26.132812 42.355469 26.671875 42.761719 C 31.566406 46.464844 37.289062 46.734375 41.980469 43.484375 C 42.300781 43.257812 42.691406 43.269531 43.011719 43.503906 C 43.328125 43.738281 43.523438 44.164062 43.523438 44.625 L 43.523438 97.96875 L 54.058594 97.96875 L 54.058594 56.964844 C 54.304688 22.503906 48.070312 2.621094 36.960938 2.40625 C 32.855469 2.335938 28.332031 5.050781 24.539062 9.867188 " class="earpod"/>
   </g>

@@ -1,8 +1,8 @@
 path {
-  fill: #c6c6ca;
+  fill: url(#earpod-gradient);
 }
 
 path:hover {
-  fill: #e6e6ea;
+  fill: url(#earpod-gradient-hover);
   cursor: pointer;
 }
