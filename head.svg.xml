@@ -24,7 +24,7 @@
     <path d="M322,528 C323,594 343,637 378,684" />
     <path d="M378,684 C420,745 437,785 500,785" />
 
-    <polygon points="445,175 345,174 500,108" class="skill" id="seo" symmetry-id="api"/>
+    <polygon points="445,175 345,174 500,108" class="skill" id="testing" symmetry-id="api"/>
     <polygon points="445,175 347,174 500,270" class="skill" id="frontend" symmetry-id="design"/>
     <polygon points="461,341 346,174 500,270" class="skill" id="security" symmetry-id="social"/>
     <polygon points="461,341 346,174 358,271" class="skill" id="backend-frameworks" symmetry-id="frontend-frameworks"/>
