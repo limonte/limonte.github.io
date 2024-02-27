@@ -22,9 +22,11 @@ circle {
 }
 
 .skill:hover,
+.skill:focus,
 .skill.current {
   animation: none;
   fill: #f60 !important;
+  outline: none;
 }
 
 .skill.active {
