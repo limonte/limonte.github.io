@@ -7,8 +7,8 @@
   </g>
 
   <g id="center">
-    <polygon points="445,175 500,270 555,175 500,110" class="skill" id="programming" tabindex="0" />
-    <polygon points="461,341 500,270 539,341 500,410" class="skill" id="db" tabindex="0" />
+    <polygon points="445,175 500,270 555,175 500,110" class="skill" id="programming" tabindex="0" aria-label="Programming" />
+    <polygon points="461,341 500,270 539,341 500,410" class="skill" id="db" tabindex="0" aria-label="Databases" />
 
     <polygon points="500,505 490,525 500,551 510,525"/>
     <polygon points="500,517 496,525 500,536 504,525"/>
@@ -24,12 +24,12 @@
     <path d="M322,528 C323,594 343,637 378,684" />
     <path d="M378,684 C420,745 437,785 500,785" />
 
-    <polygon points="445,175 345,174 500,108" class="skill" id="testing" symmetry-id="frontend" tabindex="0" />
-    <polygon points="445,175 347,174 500,270" class="skill" id="api" symmetry-id="design" tabindex="0" />
-    <polygon points="461,341 346,174 500,270" class="skill" id="security" symmetry-id="backend-frameworks" tabindex="0" />
-    <polygon points="461,341 346,174 358,271" class="skill" id="social" symmetry-id="frontend-frameworks" tabindex="0" />
-    <polygon points="461,341 381,415 358,271" class="skill" id="server-administration" symmetry-id="tools" tabindex="0" />
-    <polygon points="461,341 381,415 500,410" class="skill" id="performance" symmetry-id="communication" tabindex="0" />
+    <polygon points="445,175 345,174 500,108" class="skill" id="testing" symmetry-id="frontend" tabindex="0" aria-label="Testing" symmetry-aria-label="Front-End skills" />
+    <polygon points="445,175 347,174 500,270" class="skill" id="api" symmetry-id="design" tabindex="0" aria-label="Payment Gateways and APIs" symmetry-aria-label="Design" />
+    <polygon points="461,341 346,174 500,270" class="skill" id="security" symmetry-id="backend-frameworks" tabindex="0"  aria-label="Security" symmetry-aria-label="Back-End Frameworks" />
+    <polygon points="461,341 346,174 358,271" class="skill" id="social" symmetry-id="frontend-frameworks" tabindex="0" aria-label="Social skills" symmetry-aria-label="Front-End Frameworks" />
+    <polygon points="461,341 381,415 358,271" class="skill" id="system-administration" symmetry-id="tools" tabindex="0" aria-label="System administration" symmetry-aria-label="Operating Systems, WebDev tools" />
+    <polygon points="461,341 381,415 500,410" class="skill" id="performance" symmetry-id="communication" tabindex="0" aria-label="Performance" symmetry-aria-label="Communication" />
 
     <path d="M307,433 C310,419 307,411 302,404" />
     <path d="M302,404 C292,389 309,381 312,395" />
