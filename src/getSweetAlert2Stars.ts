@@ -6,6 +6,6 @@ export const getSweetAlert2Stars = () => {
     .then((response) => response.json())
     .then((data) => {
       const starsContainer = $('#sweetalert2-stars-count') as HTMLElement;
-      starsContainer.innerText = data.stargazers_count ? new Intl.NumberFormat().format(data.stargazers_count) : '17k+';
+      starsContainer.innerText = data.stargazers_count ? new Intl.NumberFormat().format(data.stargazers_count) : '18k+';
     });
 };
